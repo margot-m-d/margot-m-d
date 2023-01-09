@@ -1,3 +1,53 @@
-remote_theme: pages-themes/minimal@v0.2.0
-title: [Portfolio - Margot D.]
-description: [Show; Don't tell.]
+title: Portfolio Margot D.
+description: Show, don't tell.
+author: Margot D.
+github: https://github.com/margot-m-d
+about: Cartography, Geology, Earth data
+disqus_shortname:
+google_analytics:
+avatar_url: https://media.licdn.com/dms/image/C5603AQGRVpHgM1Yexw/profile-displayphoto-shrink_400_400/0/1652248693866?e=1678924800&v=beta&t=ETdXViWHD2VJd6c_avVd-gGvh3iylHuUPCIoNS1JXTg
+repository: jonahadkins/margot-m-d.github.io
+
+enableTags: true
+tagarray: []
+
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
+
+social:
+    - icon: fa-linkedin
+      link: "https://www.linkedin.com/in/margot-dupont/"
+    - icon: fa-github
+      link: "https://github.com/margot-m-d"
+    - icon: fa-envelope
+      link: "mailto:margot.m.dupont@gmail.com"
+
+share:
+  twitter_username: 
+  fb_appid:
+
+urls:
+    - text: Resume
+      url: /Resume_mdupont.pdf
+    - text: About
+      url: /about/
+    - text: Projects
+      url: /projects/
+
+url: "https://margot-m-d.github.io/margot-m-d/"
+baseurl: ""
+paginate: 20
+per_page: 20
+future: true
+paginate_path: "/page/:num/"
+markdown: kramdown
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
